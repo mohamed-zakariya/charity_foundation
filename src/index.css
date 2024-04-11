@@ -1,0 +1,609 @@
+ /* Declaring variables for the styles below */
+
+:root {
+  --clr-white: #fff;
+  --clr-black: #222; 
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* contact us styling */
+
+/* .header-footer{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+} */
+.con1{
+  background-image:  linear-gradient(180deg,#0e7162 0%,rgba(14,113,98,0.88) 100%)
+  ,url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/charity-25.jpg)!important;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f7f9f9 !important;
+}
+
+
+.styling-contact{
+  text-align: center;
+  margin: auto;
+}
+
+.con2{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
+}
+
+.con3{
+  width: 30%;
+}
+
+.send-contact{
+  color: #140c0c;
+  width: 30%;
+  height: 360px;
+  background-color: white;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3%;
+  padding-top: 3%;
+  border-radius: 10px;
+}
+.send-contact input{
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid black;
+  background: transparent;
+  margin-top: 6%;
+}
+.send-contact button{
+  margin-top: 10%;
+  width: 30%;
+  background-color: black;
+  border: 0px;
+}
+.con4{
+  color: #140c0c;
+
+  padding-top: 5%;
+  padding-left: 3%;
+  height: 360px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  border-radius: 10px;
+
+}
+
+.address-style {
+  margin-bottom: 5%;
+  display: flex;
+}
+.address-style .shapes{
+  color: #140c0c;
+  color: rgba(0,0,0,0.6);
+  background-color: white;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 50px;
+  font-size: 35px;
+
+}
+
+.address-style .word{
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+
+ /* main style */
+
+#navBar li a{
+  color: black;
+}
+.sections{
+  width: 100%;
+  padding-top: 100px;
+  background-color: #f7f9f9!important;
+  display: flex;
+  gap: 30px;
+}
+.first-section{
+  margin-top: 60px;
+  width: 50%;
+  padding-left: 100px;
+}  
+.first-section-part2{
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+} 
+.first-section-part2 button{
+  margin-left: 30px;
+  border-radius: 5px;
+  background-color:#26c699;
+  border: 0px;
+  color: white;
+  width: 130px;
+  height: 50px;
+}
+/* .first-section-part3{
+  width: 200%;
+  margin: auto;
+} */
+
+.second-section{
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+.mb-4{
+  margin-bottom: 0px!important;
+}
+.my-4{
+  margin-top: 0px!important;
+}
+
+/* login && signup common styles */
+
+.body{
+  background-color: white;
+  display: flex;
+
+}
+
+/* content style */
+
+
+main {
+  min-height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:  linear-gradient(180deg,#0e7162 0%,rgba(14,113,98,0.88) 100%)
+  ,url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/charity-25.jpg)!important;
+
+    /* background-color: rgb(192 232 218); */
+
+}
+.content-format{
+  margin: 10% 0;
+
+}
+
+.review {
+  background: var(--clr-white);
+  padding: 1.5rem 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+  text-align: center;
+  width: 30%;
+  margin: 50px;
+}
+
+.review:hover {
+  box-shadow: var(--dark-shadow);
+}
+
+/* .review .history{
+  position: relative;
+  top: -12vh;
+  left: -25%;
+} */
+
+.shape-img {
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  padding: 5%;
+}
+
+
+
+.author span{
+  margin-bottom: 0.25rem;
+  color: red;
+  text-transform: uppercase;
+}
+.price {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: hsl(205, 78%, 60%);
+  font-size: 0.85rem;
+}
+.info {
+  margin-bottom: 0.75rem;
+}
+
+.showless-btn{
+  width: 15px;
+  font-size: 1rem; 
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+  color: hsl(205, 78%, 60%);
+}
+
+.btn-next{
+  display: flex;
+  justify-content: space-between;
+
+}
+.next {
+  width: 20px;
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  color: hsl(205, 78%, 60%); 
+}
+
+
+/* login style  */
+
+.login-form{
+  width: 600px;
+  margin: auto;
+  margin-top: 15px;
+  padding: 150px;
+  background-color: #84c8d1;
+  background-color: rgb(89 191 156);
+  background-color: rgb(180 223 208);
+  color: black;
+  border-radius: 50px;
+  height: 700px;
+  
+}
+.logo-login{
+  position: relative;
+  top: -60px;
+  left: 110px;
+  font-size: 55px;
+  margin: auto;
+}
+.heading-style-login{
+  width: 500px;
+  position: relative;
+  top: -50px;
+}
+.signin-button{
+  width: 400px;
+  margin: auto;
+}
+#login-button input{
+  margin-top: 20%;
+  width: 300px;
+  background-color: #141515;
+  border: 1 solid black;
+}
+#login-button input:hover{
+  background-color: #a71111;
+}
+#username i, #password i{
+  position: relative;
+  top: 35px;
+  left: -35px;
+  font-size: 25px;
+}
+.signup-button{
+
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  padding-right: 15px;
+}
+.signup-button button{
+  display: inline-block;
+  text-indent: 7px;
+  color: #c70909;
+  font-weight: 500;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.signup-button button:hover{
+  /* color: black; */
+  /* font-weight: 500; */
+}
+.background-image-login{
+  position: relative;
+  left: -55px;
+  top: 15px;
+}
+
+.form-editing div input{
+  border-radius: 0;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid black;
+  background: transparent;
+}
+
+
+
+
+ /* signup style */
+ .signup-form{
+  width: 600px;
+  margin: auto;
+  margin-top: 15px;
+  /* background-color: white; */
+  background-color: rgb(89 191 156);
+  background-color: rgb(180 223 208);
+  color: black;
+  border-radius: 50px;
+  height: 700px;
+
+}
+.logo-signup{
+  position: relative;
+  top: 40px;
+  left: 270px;
+  font-size: 55px;
+  color: black;
+}
+.return-back{
+  position: relative;
+  left: 60px;
+  top: 60px;
+  font-weight: bold;
+  font-size: large;
+  background-color: rgb(180 223 208);
+  height: fit-content;
+  width: fit-content;
+}
+.return-back button{
+  background-color: rgb(180 223 208);
+}
+.return-back i{
+  background-color: rgb(180 223 208);
+  color: black;
+  font-size: 30px;
+}
+.return-back i:hover{
+  color: #a71111;
+}
+.signup-form form{
+  margin: auto;
+  position: relative;
+  top: 95px;
+  left: -50px;
+}
+.heading-style-signup{
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  left: 50px;
+}
+.inputs{
+  width: 300px;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+  position: relative;
+  left: -5px;
+}
+
+.createAccount-button{
+  width: 400px;
+  text-align: center;
+
+}
+/* .createAccount-button input{
+  width: 300px;
+  background-color: #141515;
+  border: 0px;
+}
+.createAccount-button input:hover{
+  background-color: #a71111;
+} */
+#createAccount-button input{
+  width: 300px;
+  background-color: #141515;
+  border: 0px;
+}
+#createAccount-button input:hover{
+  background-color: #a71111;
+}
+.inputs #createAccount-button{
+  margin: 20px 0px 0px 60px;
+}
+
+.male-female{
+  display: flex;
+  justify-content: space-between;
+}
+.birth{
+  display: flex;
+  justify-content: space-between;
+}
+.birth input{
+  border-radius: 8px;
+  border: 0px;
+}
+.background-image-signup{
+  position: relative;
+  left: -55px;
+  top: 15px;
+}
+
+.inputs input{
+  border-radius: 0;
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid black; 
+  background: transparent;
+  /* color: rgba(14,113,98,0.88);
+  font-weight: bold; */
+}
+
+
+/* header style */
+
+/* .nav-item span{
+  border-bottom: 3px solid hsl(205, 78%, 60%);
+  color: hsl(205, 78%, 60%);
+  margin: 3px;
+} */
+
+
+/* about style */
+
+#about-style {
+  padding: 1%;
+  background-color: #f7f9f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/charity-09.png)!important;
+}
+#about-style div{
+  width: 65%;
+}
+
+
+#about-style img{
+  background-color: #f7f9f9!important;
+}
+
+.first-about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px; */
+}
+.first-about div h1{
+  text-align: left;
+  font-weight: bold;
+}
+.first-about div p{
+  margin-top: 10%;
+  text-align: left;
+  font-weight: 350;
+}
+
+
+
+
+/* organization style */
+.first-section-part3{
+  width: 105%;
+}
+.first-section-part3 article{
+  margin: auto;
+}
+
+.review-org {
+  background: var(--clr-white);
+  padding: 1.5rem 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+  text-align: center;
+  width: 30%;
+
+}
+
+.review-org:hover {
+  box-shadow: var(--dark-shadow);
+}
+
+/* .review .history{
+  position: relative;
+  top: -12vh;
+  left: -25%;
+} */
+
+.shape-img-org {
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  padding: 5%;
+}
+
+
+
+.author-org button{
+  margin-bottom: 0.25rem;
+  color: red;
+  text-transform: uppercase;
+  border: 0;
+  background-color: white;
+}
+.price-org {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: hsl(205, 78%, 60%);
+  font-size: 0.85rem;
+}
+.info-org {
+  margin-bottom: 0.75rem;
+}
+
+.showless-btn-org{
+  width: 15px;
+  font-size: 1rem; 
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+  color: hsl(205, 78%, 60%);
+}
+
+.btn-next-org{
+  display: flex;
+  justify-content: space-between;
+
+}
+.next-org {
+  width: 20px;
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  color: hsl(205, 78%, 60%); 
+}
