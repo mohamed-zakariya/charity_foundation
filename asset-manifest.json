@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/charity_foundation/static/css/main.7eb78ba8.css",
+    "main.js": "/charity_foundation/static/js/main.851c88ca.js",
+    "static/js/787.53b83d73.chunk.js": "/charity_foundation/static/js/787.53b83d73.chunk.js",
+    "index.html": "/charity_foundation/index.html",
+    "main.7eb78ba8.css.map": "/charity_foundation/static/css/main.7eb78ba8.css.map",
+    "main.851c88ca.js.map": "/charity_foundation/static/js/main.851c88ca.js.map",
+    "787.53b83d73.chunk.js.map": "/charity_foundation/static/js/787.53b83d73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eb78ba8.css",
+    "static/js/main.851c88ca.js"
+  ]
+}
