@@ -56,9 +56,6 @@ function Body({userlog, setuserlog}) {
 
     }
 
-
-
-
     return(
         <div>
             <div class="sections">
