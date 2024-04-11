@@ -118,7 +118,7 @@ function Signup({setloginFlag, setsignupFlag , setuserlog}) {
                 </form>
             </div>
             <div class="background-image-signup">
-                <img src="/photos/charity-10.png" alt="" width="500px" height="700px" />
+                <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/11/charity-10.png" alt="" width="500px" height="700px" />
             </div>
         </div>
     );

@@ -31,7 +31,8 @@ function App() {
         <Router>
           <Header setsignupFlag={setsignupFlag} setloginFlag={setloginFlag} userlog={userlog} setuserlog={setuserlog}/>
           <Switch>
-            <Route exact path='/'>
+            
+            <Route exact path='/charity_foundation'>
               <Body userlog={userlog} setuserlog={setuserlog}/>
             </Route>
             <Route exact path='/contact'>

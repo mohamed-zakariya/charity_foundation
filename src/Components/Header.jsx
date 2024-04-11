@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import img from '../photos/main.jpeg'
 
 function Header({ setsignupFlag, setloginFlag, userlog, setuserlog }) {
     const [scrollHome, setscrollHome] = useState(true);
@@ -57,13 +58,13 @@ function Header({ setsignupFlag, setloginFlag, userlog, setuserlog }) {
                 <svg className="bi me-2" width="40" height="32">
                     <use xlinkHref="#bootstrap"></use>
                 </svg>
-                <img src="/photos/main.jpeg" alt="" width="80px" height="50px" style={{ borderRadius: "50px" }} />
+                <img src={img} alt="" width="80px" height="50px" style={{ borderRadius: "50px" }} />
                 <span className="fs-4" style={{ fontWeight: "bold" }}>ISYZ Foundation</span>
             </a>
 
             <ul className="nav nav-pills" id="navBar">
                 <li className="nav-item">
-                    <Link to='/' className="nav-link" onClick={scrollByHome} style={{ cursor: "pointer" }}>
+                    <Link to='/charity_foundation' className="nav-link" onClick={scrollByHome} style={{ cursor: "pointer" }}>
                         <span style={{ borderBottom: homeState[0], color: homeState[1], margin: homeState[2] }}> Home </span>
                     </Link>
                 </li>
